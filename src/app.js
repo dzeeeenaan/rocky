@@ -7,6 +7,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 
+const port = process.env.PORT || 4000;
+
 const results = [
   { name: "Dzeeno", score: 2425 },
   { name: "Ahmed", score: 2142 },
@@ -21,6 +23,6 @@ app.get("/api/scores", (req, res) => {
   console.log(chalk.green.bold("Sucess"));
 });
 
-app.listen(4000, () => {
+app.listen(port, () => {
   console.log("I started ");
 });
