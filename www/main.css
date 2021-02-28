@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.text-block {
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: 700;
+  color: rgb(39, 37, 37);
+}
+.like-box {
+  margin: 1rem;
+  text-align: center;
+}
+button {
+  margin: 0.8rem;
+  width: 40%;
+  height: 40px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
